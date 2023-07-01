@@ -92,7 +92,7 @@
                                 @elseif (auth::user()->usertype == 1)
                                     <li class="nav-item dropdown">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" type="button"
-                                            role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true"
                                             aria-expanded="false" v-pre>
                                             {{ Auth::user()->name }}
                                         </a>
@@ -125,7 +125,7 @@
                                 @else
                                     <li class="nav-item dropdown">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" type="button"
-                                            role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true"
                                             aria-expanded="false" v-pre>
                                             {{ Auth::user()->name }}
                                         </a>

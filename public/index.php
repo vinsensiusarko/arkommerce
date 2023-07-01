@@ -53,9 +53,3 @@ $response = $kernel->handle(
 )->send();
 
 $kernel->terminate($request, $response);
-
-
-
-
-// set the public path to this directory
-app()->usePublicPath(__DIR__);

@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\GoogleController;
+use Illuminate\Support\Facades\Artisan;
 
 /*
 |--------------------------------------------------------------------------
@@ -67,3 +68,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 //Login Google Account
 Route::get('auth/google', [GoogleController::class, 'login_google']);
 Route::get('auth/google/auth/google/callback', [GoogleController::class, 'login_google_callback']);
+
+Route::get('/foo', function () {
+    Artisan::call('storage:link');
+    });

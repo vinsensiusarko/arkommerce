@@ -7,6 +7,8 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/vinsensiusarko/arkommerce/blob/main/Arkommerce.png" width="400" alt="Laravel Logo"></a></p>
+
 ### How to Install
 1. Clone the project
 2. Go to the project root directory and run `composer install` and `npm install`

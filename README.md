@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-<h1 align="center"><img src="[public/docs/imgs/ut/Screenshot 2021-12-07 at 01-27-05 Unifiedtransform.png](https://github.com/vinsensiusarko/arkommerce/blob/main/Arkommerce.png)"></h1>
+<h1 align="center"><img src="https://github.com/vinsensiusarko/arkommerce/blob/main/Arkommerce.png"></h1>
 
 ### How to Install
 1. Clone the project

@@ -68,3 +68,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 //Login Google Account
 Route::get('auth/google', [GoogleController::class, 'login_google']);
 Route::get('auth/google/auth/google/callback', [GoogleController::class, 'login_google_callback']);
+
+Route::get('/linkstorage', function () {
+    Artisan::call('storage:link');
+});

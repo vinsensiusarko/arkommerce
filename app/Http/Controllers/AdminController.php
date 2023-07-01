@@ -77,8 +77,7 @@ class AdminController extends Controller
 
         $image = $request->image;
         $imagename = time().'.'.$image->getClientOriginalExtension();
-        // $request->image->move('product', $imagename);
-        $request->image->move(public_path('product'), $imagename);
+        $request->image->move(public_path().'/product/', $imagename);
 
         $product->image = $imagename;
 

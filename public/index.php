@@ -53,3 +53,11 @@ $response = $kernel->handle(
 )->send();
 
 $kernel->terminate($request, $response);
+
+
+
+
+// set the public path to this directory
+$app->bind('path.public', function() {
+    return __DIR__;
+});

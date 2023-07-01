@@ -18,3 +18,13 @@
 5. Change database information in `.env`
 6. Run migrations by executing `php artisan migrate`
 7. Start the project by running `php artisan serve`
+
+### Admin
+username: admin
+email: admin@admin.com
+password: admin1234
+
+### User
+username: user
+email: user@user.com
+password: user1234

@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-<p align="center"><a href="#" target="_blank"><img src="https://github.com/vinsensiusarko/arkommerce/blob/main/Arkommerce.png" width="400" alt="Arkommerce"></a></p>
+<h1 align="center"><img src="https://github.com/vinsensiusarko/arkommerce/blob/main/Arkommerce.png"></h1>
 
 ### How to Install
 1. Clone the project
@@ -18,3 +18,13 @@
 5. Change database information in `.env`
 6. Run migrations by executing `php artisan migrate`
 7. Start the project by running `php artisan serve`
+
+### Admin
+username: admin
+email: admin@admin.com
+password: admin1234
+
+### User
+username: user
+email: user@user.com
+password: user1234

@@ -13,6 +13,7 @@
         "laravel/socialite": "^5.6",
         "laravel/tinker": "^2.8",
         "laravel/ui": "^4.2",
+        "predis/predis": "^2.2",
         "realrashid/sweet-alert": "^7.0",
         "stripe/stripe-php": "^10.15"
     },

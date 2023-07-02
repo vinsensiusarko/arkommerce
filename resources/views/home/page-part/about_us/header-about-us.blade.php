@@ -48,7 +48,7 @@
                             <a href="{{ url('about_us') }}" class="nav-item nav-link active">About Us</a>
                             <a href="{{ url('contact') }}" class="nav-item nav-link">Contact</a>
                         </div>
-                        <div class="navbar-nav ml-auto py-0">
+                        <div class="nav-item dropdown ml-auto py-0">
                             <ul class="navbar-nav ms-auto">
                                 <!-- Authentication Links -->
                                 @guest

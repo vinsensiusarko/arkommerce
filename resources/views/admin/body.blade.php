@@ -122,8 +122,8 @@
   <footer class="footer">
     <div class="d-sm-flex justify-content-center justify-content-sm-between">
       <span class="text-muted d-block text-center text-sm-left d-sm-inline-block"><a href="{{ url('/') }}">Arkommerce</a>. Copyright © <script>document.write(new Date().getFullYear())</script></span>
-      <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Make With ❤️ By <a href="https://vinsensiusarko.web.app/"
-        target="_blank">Vinsensius Arka</a></span>
+      {{-- <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Make With ❤️ By <a href="https://vinsensiusarko.web.app/"
+        target="_blank">Vinsensius Arka</a></span> --}}
     </div>
   </footer>
   <!-- partial -->

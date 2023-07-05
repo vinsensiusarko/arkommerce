@@ -6,11 +6,11 @@
                     <h1 class="mb-4 display-5 font-weight-semi-bold"><span
                             class="text-primary font-weight-bold border border-white px-3 mr-1">A</span>rkommerce</h1>
                 </a>
-                <p class="mb-2">Arkommerce adalah sebuah aplikasi fullstack web e-commerce dibuat menggunakan Framework Laravel,
+                {{-- <p class="mb-2">Arkommerce adalah sebuah aplikasi fullstack web e-commerce dibuat menggunakan Framework Laravel,
                     Passion, Ketekunan dan ❤️</p>
                 <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Jl. Kelud Selatan No. 12</p>
                 <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>vinsensiusarka@gmail.com</p>
-                <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
+                <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p> --}}
             </div>
             <div class="col-lg-8 col-md-12">
                 <div class="row">
@@ -65,7 +65,7 @@
         </div>
         <div class="row border-top border-light mx-xl-5 py-4">
             <div class="col-md-6 px-xl-0">
-                <p class="mb-md-0 text-center text-md-left text-dark">
+                {{-- <p class="mb-md-0 text-center text-md-left text-dark">
                     <a class="text-dark font-weight-semi-bold" href="{{ url('/') }}">Arkommerce</a>.
                     Copyright ©
                     <script>
@@ -73,7 +73,7 @@
                     </script> Make With ❤️ By <a href="https://vinsensiusarko.web.app/"
                         target="_blank">Vinsensius Arka</a><br>
                     Distributed By <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
-                </p>
+                </p> --}}
             </div>
             <div class="col-md-6 px-xl-0 text-center text-md-right">
                 <img class="img-fluid" src="/home/img/payments.png" alt="">

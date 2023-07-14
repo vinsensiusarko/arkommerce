@@ -20,11 +20,11 @@
 7. Start the project by running `php artisan serve`
 
 ### Admin
-username: admin
-email: admin@admin.com
+username: admin<br>
+email: admin@admin.com<br>
 password: admin1234
 
 ### User
-username: user
-email: user@user.com
+username: user<br>
+email: user@user.com<br>
 password: user1234

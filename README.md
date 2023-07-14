@@ -28,3 +28,5 @@
 <b>username</b>: user<br>
 <b>email</b>: user@user.com<br>
 <b>password</b>: user1234
+
+<Strong>Don't forget to hit the Star button ⭐</strong>
